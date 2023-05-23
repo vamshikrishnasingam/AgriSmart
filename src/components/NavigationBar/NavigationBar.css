@@ -1,0 +1,23 @@
+.header {
+    background-color:#303231;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header__brand {
+    background-color: transparent;
+
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+/* .header__content {
+    align-items: center;
+    display: flex;
+    height: 100%;
+} */
+.brand-title{
+    font-weight: bolder;
+    font-size: large;
+}

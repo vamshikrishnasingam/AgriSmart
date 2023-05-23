@@ -1,0 +1,10 @@
+.sidebar{
+    position: inline;
+  }
+  .page{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
