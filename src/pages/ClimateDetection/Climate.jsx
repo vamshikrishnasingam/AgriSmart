@@ -21,7 +21,7 @@ const Climate = () => {
     <div className="weather-app p-5 text-center">
       <h1>Weather in Your City</h1>
       <div className="input-container">
-        <input type="text" value={city} onChange={e => setCity(e.target.value)} placeholder="Enter a city" />
+        <input type="text" value={city} onChange={e => setCity(e.target.value)} placeholder="Enter Your city" />
         <button onClick={getWeather}>Get Weather</button>
       </div>
       {weatherData && (

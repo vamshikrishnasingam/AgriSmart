@@ -39,7 +39,6 @@ const Contactus = () => {
                 <button
                   class="my-2 px-4 mx-auto btn btn-dark"
                   type="submit"
-                  disabled
                 >
                   Send
                 </button>
