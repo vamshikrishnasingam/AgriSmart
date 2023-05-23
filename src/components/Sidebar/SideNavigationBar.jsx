@@ -43,7 +43,7 @@ const SideNavigationBar = () => {
               <CDBSidebarMenuItem icon="globe">Networking</CDBSidebarMenuItem>
             </NavLink>
             <NavLink to="/policy" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="globe">Polcity Support &<br></br>International Co-operation</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="paper-plane">Policy Support &<br></br>International Co-operation</CDBSidebarMenuItem>
             </NavLink>
           </CDBSidebarMenu>
         </CDBSidebarContent>

@@ -12,6 +12,8 @@ import Cropselection from './pages/Cropselection/Cropselection'
 import Aboutus from './pages/Aboutus';
 import Contactus from './pages/Contactus';
 import Policy from './pages/Policy/Policy';
+import { CropResult } from './pages/Cropselection/CropResult';
+import { FertilizerResult } from './pages/PestManagement/FertilizerResult';
 function App() {
   const router=createBrowserRouter([
     {
@@ -61,6 +63,14 @@ function App() {
         {
           path:"/Policy",
           element:<Policy/>
+        },
+        {
+          path:"/crop_result",
+          element:<CropResult/>
+        },
+        {
+          path:"/fertilizer_result",
+          element:<FertilizerResult/>
         },
       ]
     }

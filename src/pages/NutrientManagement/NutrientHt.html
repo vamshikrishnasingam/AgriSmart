@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crop Nutrient Levels</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Nutrient.css">
+</head>
+<body>
+    <div>
+       <!--form-->
+       <form>
+        <h1>Crop Nutrient Levels</h1>
+       <!--name-->
+        <label>
+        <input type="text" class="input" name="name" id="name" placeholder="Enter cropname" autocomplete="off"/>
+        <div class="line-box">
+        <div class="line">
+        </div>
+    </div>
+        </label>
+
+      <!--button-->
+      <button onclick="getNutrientLevels()">Get Nutrient Values</button>
+      </form>
+    </div>
+    <form>
+      <div id="nutrientLevels"></div>
+    </form>
+    
+    <script src="script1.js"></script>
+</body>
+</html>
